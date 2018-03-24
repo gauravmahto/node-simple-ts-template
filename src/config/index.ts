@@ -4,6 +4,7 @@
 
 export const appConfig = {
   log: {
+    dir: 'logs',
     level: 'silly',
     console: {
       prettyPrint: true,
@@ -21,9 +22,5 @@ export const appConfig = {
       json: false,
       timestamp: true
     }
-  },
-
-  data: {
-    dir: 'logs'
   }
 };
