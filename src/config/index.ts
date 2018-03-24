@@ -14,7 +14,6 @@ export const appConfig = {
     },
     file: {
       filename: 'app-%DATE%.log',
-      dir: 'logs',
       datePattern: 'MM-D-YYYY-HH',
       maxDays: 7, // 0 = don't delete old log files
       maxsize: 209715200, // 200 MB
@@ -22,5 +21,9 @@ export const appConfig = {
       json: false,
       timestamp: true
     }
+  },
+
+  data: {
+    dir: 'logs'
   }
 };
