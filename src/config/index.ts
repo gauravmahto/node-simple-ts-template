@@ -6,7 +6,6 @@ export const appConfig = {
   log: {
     level: 'silly',
     console: {
-      label: 'app',
       prettyPrint: true,
       colorize: true,
       exitOnError: false,
@@ -14,7 +13,6 @@ export const appConfig = {
       timestamp: true
     },
     file: {
-      label: 'app',
       filename: 'app-%DATE%.log',
       dir: 'logs',
       datePattern: 'MM-D-YYYY-HH',
