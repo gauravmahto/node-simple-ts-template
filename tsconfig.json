@@ -2,11 +2,15 @@
   "compilerOptions": {
     "rootDir": ".",
     "outDir": "bin",
-    "target": "es6",
+    "target": "es2019",
     "module": "commonjs",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "noEmitOnError": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
     "declaration": false,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -15,6 +19,7 @@
     "noUnusedParameters": true,
     "suppressImplicitAnyIndexErrors": true,
     "experimentalDecorators": true,
+    "incremental": true,
     "sourceRoot": "./src",
     "sourceMap": true,
     "inlineSources": true,
@@ -25,8 +30,7 @@
       ]
     },
     "lib": [
-      "es2017",
-      "dom"
+      "es2019"
     ]
   },
   "include": [
